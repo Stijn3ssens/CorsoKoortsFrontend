@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form class="ion-padding">
+    <ion-list lines="full">
+      <ion-item>
+        <ion-label position="stacked">Username <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input #username required type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Password <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input #password required type="text"></ion-input>
+      </ion-item>
+  </ion-list>
+
+      <ion-button (click)="loginEvent(username.value, password.value)" expand="block" type="submit" class="ion-no-margin">Login</ion-button>
+  </form>
+</ion-content>
+
+<!-- <ion-content>
+  <form (ngSubmit)="submit()" class="ion-padding">
+    <ion-list lines="full">
+      <ion-item>
+        <ion-label position="stacked">Username <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input [(ngModel)]="login.username" required type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Password <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input [(ngModel)]="login.password" required type="password"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-button expand="block" type="submit" class="ion-no-margin">Login</ion-button>
+  </form>
+</ion-content> -->

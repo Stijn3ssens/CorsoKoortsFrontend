@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Corso's</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let society of societies">
+      <ion-item href="/society/1/{{society.id}}/home">
+        <ion-avatar slot="start">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.L6-f-ZCW0YVSFTDcolhMjAHaHa%26pid%3DApi&f=1">
+        </ion-avatar>
+        <ion-label>
+          <h2>{{society.name}}</h2>
+          <p>{{society.name}}</p>
+        </ion-label>
+      </ion-item>
+  </ion-item>
+</ion-content>

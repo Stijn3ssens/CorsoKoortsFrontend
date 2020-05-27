@@ -1,0 +1,6 @@
+projectKey=CorsoKoorts_Frontend
+serverUrl=http://localhost:9000
+serverVersion=8.2.0.32929
+dashboardUrl=http://localhost:9000/dashboard?id=CorsoKoorts_Frontend
+ceTaskId=AXI7gZBwdLMylMc9-d4p
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXI7gZBwdLMylMc9-d4p
