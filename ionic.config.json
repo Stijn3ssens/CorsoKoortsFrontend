@@ -1,7 +1,0 @@
-{
-  "name": "CorsoKoortsIonicFrontend",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
